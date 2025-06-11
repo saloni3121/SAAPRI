@@ -13,6 +13,10 @@ function App() {
   return (
     <div className="min-h-screen bg-[#fafafa]">
       <Header />
+      <header>
+        <h1>SAAPRI</h1>
+        <p>South Asian American Policy Research Institute</p>
+      </header>
       <main>
         <Hero />
         <ImpactAreas />
@@ -20,8 +24,12 @@ function App() {
         <News />
         <Testimonials />
         <Newsletter />
+        <p>Welcome to the SAAPRI website.</p>
       </main>
       <Footer />
+      <footer>
+        <p>&copy; {new Date().getFullYear()} SAAPRI</p>
+      </footer>
       <Chatbot />
     </div>
   );
